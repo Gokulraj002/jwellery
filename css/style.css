@@ -1,0 +1,129 @@
+body {
+	font-family: 'Raleway', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+  }
+  .carousel-item img {
+	height: auto;
+	object-fit: cover;
+  }
+   .card {
+	border: none;
+  overflow: hidden;
+}
+
+.card-img-top {
+  border-radius: 0px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+  .add {
+	height: auto;
+	object-fit: cover;
+  }
+  .overlay {
+	position: relative;
+  }
+  .overlay::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.3);
+	z-index: 1;
+  }
+  .card-img-overlay {
+	z-index: 2;
+  }
+  .ads-card {
+	top:25%;
+	left: 30%;
+  }
+
+.nav-tabs {
+	justify-content: center;
+  }
+  .hovereffect{
+	width: 261px;
+	height: 261px;
+	overflow: hidden;
+  }
+
+  .blackwhite:hover{
+	/* filter: blur(1px); */
+	filter: grayscale();
+  }
+
+.swiper-container {
+	overflow: hidden;
+  }
+
+
+.card {
+		  position: relative;
+		  overflow: hidden;
+		  border-radius: 0px;
+	  }
+
+	  .icon-container {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  position: absolute;
+		  top: 10px;
+		  right: 10px;
+	 
+		  padding: 5px;
+		  border-radius: 50%;
+		  opacity: 0;
+		  transition: opacity 0.3s;
+	  }
+
+	  .card:hover .icon-container {
+		  opacity: 1;
+	  }
+
+	  .icon-container a {
+		color: #000;
+  background: #acacac;
+  font-size: 1.5rem;
+  padding: 4px 7px 0px 7px;
+  margin: 5px 0;
+  border-radius: 0%;
+	  }
+
+	  .icon-container a:hover {
+		  color: #dc3545;
+	  }
+	 
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 600px) {
+.ads-card{
+	bottom: 0%;
+	right: 0%;
+  }
+}
+
+/* Tablets (portrait and landscape) */
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+}
+
+/* Laptops and desktops */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+}
+
+/* Large screens (e.g., large desktop monitors) */
+@media only screen and (min-width: 1441px) {
+
+}

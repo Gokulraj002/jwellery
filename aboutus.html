@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jewellery</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="javascript/script.js"></script>
+    <style></style>
+  </head>
+  <body class="bg-light">
+    <header class="sticky-top py-2 border-bottom bg-light">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a href="/" class="text-decoration-none">
+          <h1 class="h4 m-0 text-primary">Becute</h1>
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">PAGES</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero-section position-relative overflow-hidden">
+      <!-- Background Image -->
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100 bg-image"
+        style="
+          background-image: url('https://img.freepik.com/premium-photo/professional-photographer-capturing-artist-designing_1168612-309396.jpg?w=826');
+          background-size: cover;
+          background-position: center;
+        "
+      ></div>
+      <div
+        class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"
+      ></div>
+      <div class="content text-center position-relative p-5">
+        <h1 class="text-white display-4 mb-3">About Our Passion for Jewelry</h1>
+        <p class="text-white lead">Crafting Elegance Since [Year]</p>
+        <a href="#our-story" class="btn btn-outline-light mt-3"
+          >Discover Our Journey</a
+        >
+      </div>
+    </div>
+
+    <!-- About Us Section - Enhanced with mission and vision -->
+    <section id="our-story" class="about-us py-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6">
+            <h2 class="mb-4">Our Story</h2>
+            <p>
+              Founded in [Year], Becute has been a beacon of elegance and
+              craftsmanship in the world of fine jewelry. Our journey began with
+              a simple passion: to create exquisite pieces that celebrate life's
+              most precious moments.
+            </p>
+            <p>
+              Today, we continue to blend traditional techniques with
+              contemporary design, ensuring each piece tells a unique story. Our
+              commitment to quality and customer satisfaction remains at the
+              heart of everything we do.
+            </p>
+            <a href="#" class="btn btn-dark mt-3">Discover Our Collections</a>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-details-jewelry-young-attractive-woman-stylish-black-dress-posing-tropical-villa-sexy-elegant-summer-style-fashionable-necklace-accessories_285396-5718.jpg?t=st=1722838019~exp=1722841619~hmac=9a70f43e3aa2903ecd1dbc87655596e87cd94497039f0920834d6004ee2efcb6&w=740"
+              alt="Jewelry craftsmanship"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <h3>Our Mission</h3>
+            <p>
+              To create timeless jewelry that captures the essence of life's
+              most cherished moments, while providing unparalleled customer
+              service and fostering a deep connection with our community.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h3>Our Vision</h3>
+            <p>
+              To be the premier destination for those seeking exquisite,
+              personalized jewelry that tells their unique story and becomes a
+              treasured part of their life's journey.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container journey-container">
+      <div class="row">
+        <div class="col-md-6 journey-image">
+          <img
+            class="w-100"
+            src="https://img.freepik.com/premium-photo/jewelry-photography_808279-3.jpg?w=740"
+            alt="Jewelry Collection"
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="journey-item">
+            <h3>[2000]</h3>
+            <p>Becute was founded with a vision to create timeless jewelry.</p>
+          </div>
+          <div class="journey-item">
+            <h3>[2000 + 5]</h3>
+            <p>Expanded our collection to include custom design services.</p>
+          </div>
+          <div class="journey-item">
+            <h3>[2000 + 9]</h3>
+            <p>Opened our flagship store in [City].</p>
+          </div>
+          <div class="journey-item">
+            <h3>Today</h3>
+            <p>Continuing to innovate and inspire with our unique designs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="our-team py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Collections</h2>
+        <div class="row">
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img
+                src="https://img.freepik.com/free-photo/young-woman-wearing-chain-necklace_23-2149490535.jpg?t=st=1722841545~exp=1722845145~hmac=f50b797f232dc8fbffcf0190168a6a11a7a7f37e4bc26db76c1f9b0c69efb409&w=740"
+                class="card-img-top"
+                alt="Silver Collection"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Silver Collection</h5>
+                <p class="card-text">Explore our exquisite silver designs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img
+                src="https://img.freepik.com/free-photo/young-woman-wearing-chain-necklace_23-2149490547.jpg?t=st=1722841661~exp=1722845261~hmac=88f3fcaf9cb30b943e4fb88b3babc63d6b153d436510fb83e2df7446226281c2&w=740"
+                class="card-img-top"
+                alt="Gold Collection"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Gold Collection</h5>
+                <p class="card-text">Discover our elegant gold pieces.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img
+                src="https://img.freepik.com/premium-photo/woman-wearing-necklace-with-pearl-it_1100672-13103.jpg?w=740"
+                class="card-img-top"
+                alt="Platinum Collection"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Platinum Collection</h5>
+                <p class="card-text">Admire our premium platinum creations.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card">
+              <img
+                src="https://img.freepik.com/premium-photo/indian-woman-with-elegant-choker-necklace_961875-388455.jpg?w=740"
+                class="card-img-top"
+                alt="Diamond Collection"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Diamond Collection</h5>
+                <p class="card-text">Browse our stunning diamond jewelry.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="testimonialCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="testimonial-item">
+            <img src="customer1.jpg" alt="Customer 1" />
+            <p>
+              "The jewelry I purchased was absolutely stunning. The quality and
+              craftsmanship are top-notch!"
+            </p>
+            <h5>Jane Doe</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial-item">
+            <img src="customer2.jpg" alt="Customer 2" />
+            <p>
+              "I received my order promptly and it was even more beautiful than
+              I expected. Highly recommend!"
+            </p>
+            <h5>John Smith</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial-item">
+            <img src="customer3.jpg" alt="Customer 3" />
+            <p>
+              "The customer service was excellent and the jewelry is simply
+              gorgeous. I will definitely be returning!"
+            </p>
+            <h5>Emily Johnson</h5>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#testimonialCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#testimonialCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- New Section: Our Commitment to Sustainability -->
+    <section class="sustainability py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Commitment to Sustainability</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="https://img.freepik.com/premium-photo/jewelry-photography_808279-2.jpg?w=740"
+              alt="Sustainable Practices"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-md-6">
+            <h3>Ethical Sourcing</h3>
+            <p>
+              We are committed to sourcing our materials ethically, ensuring
+              that our gemstones and precious metals are conflict-free and
+              environmentally responsible.
+            </p>
+            <h3>Eco-Friendly Practices</h3>
+            <p>
+              Our workshop implements eco-friendly practices, including
+              recycling precious metals and minimizing waste in our production
+              process.
+            </p>
+            <h3>Community Support</h3>
+            <p>
+              We actively support local artisans and contribute to community
+              development programs in regions where our materials are sourced.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-light pt-4 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>About Us</h5>
+            <p>
+              Discover exquisite jewelry pieces crafted with care and precision
+              for all occasions.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Contact Us</h5>
+            <p><i class="fas fa-envelope me-2"></i>info@jewelrywebsite.com</p>
+            <p><i class="fas fa-phone-alt me-2"></i>+1 234 567 890</p>
+            <p><i class="fab fa-whatsapp me-2"></i>+1 234 567 891</p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Follow Us</h5>
+            <a href="#" class="text-light me-2">
+              <i class="fab fa-facebook-f fa-lg"></i>
+            </a>
+            <a href="#" class="text-light me-2">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+            <a href="#" class="text-light me-2">
+              <i class="fab fa-twitter fa-lg"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col text-center">
+            <hr class="bg-light" />
+            <p>&copy; 2024 Jewelry Website. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+I8P0UffoOujC1hBBrp2OTFb7lg7z"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</html>
